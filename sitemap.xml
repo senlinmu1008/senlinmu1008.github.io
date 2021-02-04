@@ -599,14 +599,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/Lambda/</loc>
+    <loc>http://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/IDEA/</loc>
+    <loc>http://zhaoxiaobin.net/tags/Lambda/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -620,7 +620,21 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/MySQL8/</loc>
+    <loc>http://zhaoxiaobin.net/tags/IDEA/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/HTTP/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/TCP/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -663,20 +677,6 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/tags/csv/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/tags/HTTP/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/tags/TCP/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -748,13 +748,6 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://zhaoxiaobin.net/categories/MySQL/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -762,7 +755,7 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/SpringBoot/</loc>
+    <loc>http://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -770,6 +763,13 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/categories/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/categories/SpringBoot/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
