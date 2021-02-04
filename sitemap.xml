@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhaoxiaobin.net/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/loadbalance/nginx/Https%E5%8D%95%E5%90%91%E8%AE%A4%E8%AF%81%E5%92%8C%E5%8F%8C%E5%90%91%E8%AE%A4%E8%AF%81/</loc>
+    
+    <lastmod>2021-02-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhaoxiaobin.net/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/loadbalance/nginx/CentOS7%20Nginx%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8Ehttp%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2021-02-04</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/loadbalance/nginx/Nginx%E9%85%8D%E7%BD%AEHttps%E5%8D%95%E5%90%91%E8%AE%A4%E8%AF%81%E3%80%81%E5%8F%8C%E5%90%91%E8%AE%A4%E8%AF%81%E4%BB%A5%E5%8F%8A%E5%A4%9A%E8%AF%81%E4%B9%A6%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2021-02-04</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/loadbalance/nginx/Https%E5%8D%95%E5%90%91%E8%AE%A4%E8%AF%81%E5%92%8C%E5%8F%8C%E5%90%91%E8%AE%A4%E8%AF%81/</loc>
     
     <lastmod>2021-02-04</lastmod>
     
@@ -536,6 +536,27 @@
 
   
   <url>
+    <loc>http://zhaoxiaobin.net/tags/JPA/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/QueryDSL/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/MyBatis/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zhaoxiaobin.net/tags/RabbitMQ/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -543,14 +564,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</loc>
+    <loc>http://zhaoxiaobin.net/tags/%E6%AD%BB%E4%BF%A1%E9%98%9F%E5%88%97/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/%E6%AD%BB%E4%BF%A1%E9%98%9F%E5%88%97/</loc>
+    <loc>http://zhaoxiaobin.net/tags/%E5%BB%B6%E8%BF%9F%E9%98%9F%E5%88%97/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -578,27 +599,6 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/JPA/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/tags/QueryDSL/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/tags/MyBatis/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -613,14 +613,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/IDEA/</loc>
+    <loc>http://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/webService/</loc>
+    <loc>http://zhaoxiaobin.net/tags/IDEA/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -720,6 +720,13 @@
 
   
   <url>
+    <loc>http://zhaoxiaobin.net/categories/JPA/</loc>
+    <lastmod>2021-02-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://zhaoxiaobin.net/categories/RabbitMQ/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
@@ -735,13 +742,6 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/categories/Hexo/</loc>
-    <lastmod>2021-02-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/categories/JPA/</loc>
     <lastmod>2021-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
