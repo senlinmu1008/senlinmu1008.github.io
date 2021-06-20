@@ -711,13 +711,6 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/webService/</loc>
-    <lastmod>2021-06-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://zhaoxiaobin.net/tags/Lambda/</loc>
     <lastmod>2021-06-20</lastmod>
     <changefreq>daily</changefreq>
@@ -733,6 +726,13 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/tags/IDEA/</loc>
+    <lastmod>2021-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2021-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -823,14 +823,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/Nginx/</loc>
+    <loc>http://zhaoxiaobin.net/tags/Https/</loc>
     <lastmod>2021-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/Https/</loc>
+    <loc>http://zhaoxiaobin.net/tags/Nginx/</loc>
     <lastmod>2021-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
