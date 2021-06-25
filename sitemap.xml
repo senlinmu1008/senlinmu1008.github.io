@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhaoxiaobin.net/music/index.html</loc>
+    
+    <lastmod>2021-06-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhaoxiaobin.net/JPA/Spring%20Data%20JPA%E4%B8%AD%E4%BD%BF%E7%94%A8QueryDSL%E8%BF%9B%E8%A1%8C%E6%9F%A5%E8%AF%A2/</loc>
     
     <lastmod>2021-06-25</lastmod>
@@ -87,13 +94,6 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/messageboard/index.html</loc>
-    
-    <lastmod>2021-06-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoxiaobin.net/music/index.html</loc>
     
     <lastmod>2021-06-25</lastmod>
     
