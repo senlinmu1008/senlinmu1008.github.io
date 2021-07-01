@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://zhaoxiaobin.net/Redis/%E6%8B%92%E7%BB%9D%E8%BA%BA%E5%B9%B3%EF%BC%8C%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8AOP%E7%9A%84%E7%8E%AF%E7%BB%95%E9%80%9A%E7%9F%A5%E5%AE%9E%E7%8E%B0%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</loc>
+    <lastmod>2021-07-01</lastmod>
+  </url>
+  <url>
     <loc>http://zhaoxiaobin.net/JPA/Spring%20Data%20JPA%E4%B8%AD%E4%BD%BF%E7%94%A8QueryDSL%E8%BF%9B%E8%A1%8C%E6%9F%A5%E8%AF%A2/</loc>
     <lastmod>2021-06-25</lastmod>
   </url>
