@@ -641,13 +641,6 @@
 
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/GC/</loc>
-    <lastmod>2021-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://zhaoxiaobin.net/tags/JPA/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
@@ -663,6 +656,13 @@
   
   <url>
     <loc>http://zhaoxiaobin.net/tags/MyBatis/</loc>
+    <lastmod>2021-08-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://zhaoxiaobin.net/tags/GC/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -774,14 +774,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/RESTful/</loc>
+    <loc>http://zhaoxiaobin.net/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
+    <loc>http://zhaoxiaobin.net/tags/RESTful/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -795,14 +795,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/cron/</loc>
+    <loc>http://zhaoxiaobin.net/tags/jasypt/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/jasypt/</loc>
+    <loc>http://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -865,14 +865,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/Https/</loc>
+    <loc>http://zhaoxiaobin.net/tags/Nginx/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/tags/Nginx/</loc>
+    <loc>http://zhaoxiaobin.net/tags/Https/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -895,14 +895,14 @@
 
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/JVM/</loc>
+    <loc>http://zhaoxiaobin.net/categories/JPA/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/JPA/</loc>
+    <loc>http://zhaoxiaobin.net/categories/JVM/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -965,14 +965,14 @@
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/SpringBoot/</loc>
+    <loc>http://zhaoxiaobin.net/categories/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://zhaoxiaobin.net/categories/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
+    <loc>http://zhaoxiaobin.net/categories/SpringBoot/</loc>
     <lastmod>2021-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
