@@ -725,6 +725,13 @@
   </url>
   
   <url>
+    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
@@ -732,7 +739,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -774,13 +781,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/RESTful/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
@@ -795,14 +795,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/jasypt/</loc>
+    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
+    <loc>https://zhaoxiaobin.net/tags/jasypt/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -837,14 +837,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/TCP/</loc>
+    <loc>https://zhaoxiaobin.net/tags/HTTP/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/HTTP/</loc>
+    <loc>https://zhaoxiaobin.net/tags/TCP/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -951,6 +951,13 @@
   </url>
   
   <url>
+    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
@@ -959,13 +966,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/categories/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
