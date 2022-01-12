@@ -690,14 +690,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Redis/</loc>
-    <lastmod>2022-01-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Git/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -711,14 +704,21 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Git/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Linux/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Linux/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Redis/</loc>
+    <lastmod>2022-01-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -739,14 +739,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
-    <lastmod>2022-01-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
+    <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -760,7 +753,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
+    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
+    <lastmod>2022-01-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -781,7 +781,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/RESTful/</loc>
+    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -795,7 +795,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
+    <loc>https://zhaoxiaobin.net/tags/RESTful/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -809,14 +809,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -851,7 +851,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Https/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
+    <lastmod>2022-01-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -865,14 +872,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
-    <lastmod>2022-01-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Https/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -916,7 +916,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Redis/</loc>
+    <loc>https://zhaoxiaobin.net/categories/Git/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -930,14 +930,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Git/</loc>
+    <loc>https://zhaoxiaobin.net/categories/Linux/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Linux/</loc>
+    <loc>https://zhaoxiaobin.net/categories/Redis/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -951,14 +951,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
+    <loc>https://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
