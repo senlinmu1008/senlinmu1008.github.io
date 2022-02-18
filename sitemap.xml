@@ -809,6 +809,13 @@
   </url>
   
   <url>
+    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
+    <lastmod>2022-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>daily</changefreq>
@@ -817,13 +824,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
-    <lastmod>2022-02-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -851,14 +851,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
-    <lastmod>2022-02-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Https/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -872,7 +865,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Https/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
+    <lastmod>2022-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
