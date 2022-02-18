@@ -1,1 +1,278 @@
-"use strict";var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault"),_slicedToArray2=_interopRequireDefault(require("@babel/runtime/helpers/slicedToArray")),_toConsumableArray2=_interopRequireDefault(require("@babel/runtime/helpers/toConsumableArray")),btf={debounce:function(o,i,a){var r;return function(){var e=this,t=arguments,n=a&&!r;clearTimeout(r),r=setTimeout(function(){r=null,a||o.apply(e,t)},i),n&&o.apply(e,t)}},throttle:function(n,o,i){var a,r,u,l=0;i=i||{};function c(){l=!1===i.leading?0:(new Date).getTime(),a=null,n.apply(r,u),a||(r=u=null)}return function(){var e=(new Date).getTime();l||!1!==i.leading||(l=e);var t=o-(e-l);r=this,u=arguments,t<=0||o<t?(a&&(clearTimeout(a),a=null),l=e,n.apply(r,u),a||(r=u=null)):a||!1===i.trailing||(a=setTimeout(c,t))}},sidebarPaddingR:function(){var e=window.innerWidth,t=document.body.clientWidth,n=e-t;e!==t&&(document.body.style.paddingRight=n+"px")},snackbarShow:function(e,t,n){var o=1<arguments.length&&void 0!==t&&t,i=2<arguments.length&&void 0!==n?n:2e3,a=GLOBAL_CONFIG.Snackbar,t=a.position,n=a.bgLight,a=a.bgDark,a="light"===document.documentElement.getAttribute("data-theme")?n:a;Snackbar.show({text:e,backgroundColor:a,showAction:o,duration:i,pos:t,customClass:"snackbar-css"})},diffDate:function(e,t){var n=1<arguments.length&&void 0!==t&&t,o=new Date,i=new Date(e),a=o.getTime()-i.getTime(),r=864e5;return n?(t=a/r,e=a/36e5,o=a/6e4,12<(n=a/2592e6)?i.toLocaleDateString().replace(/\//g,"-"):1<=n?parseInt(n)+" "+GLOBAL_CONFIG.date_suffix.month:1<=t?parseInt(t)+" "+GLOBAL_CONFIG.date_suffix.day:1<=e?parseInt(e)+" "+GLOBAL_CONFIG.date_suffix.hour:1<=o?parseInt(o)+" "+GLOBAL_CONFIG.date_suffix.min:GLOBAL_CONFIG.date_suffix.just):parseInt(a/r)},loadComment:function(e,t){var n;"IntersectionObserver"in window?(n=new IntersectionObserver(function(e){e[0].isIntersecting&&(t(),n.disconnect())},{threshold:[0]})).observe(e):t()},scrollToDest:function(n,e){var o,i=1<arguments.length&&void 0!==e?e:500,a=window.pageYOffset;n<a&&(n-=70),"scrollBehavior"in document.documentElement.style?window.scrollTo({top:n,behavior:"smooth"}):(o=null,n=+n,window.requestAnimationFrame(function e(t){t-=o=o||t;a<n?window.scrollTo(0,(n-a)*t/i+a):window.scrollTo(0,a-(a-n)*t/i),t<i?window.requestAnimationFrame(e):window.scrollTo(0,n)}))},animateIn:function(e,t){e.style.display="block",e.style.animation=t},animateOut:function(t,e){t.addEventListener("animationend",function e(){t.style.display="",t.style.animation="",t.removeEventListener("animationend",e)}),t.style.animation=e},getParents:function(e,t){for(;e&&e!==document;e=e.parentNode)if(e.matches(t))return e;return null},siblings:function(t,n){return(0,_toConsumableArray2.default)(t.parentNode.children).filter(function(e){return n?e!==t&&e.matches(n):e!==t})},wrap:function(e,t,n){for(var o=document.createElement(t),i=0,a=Object.entries(n);i<a.length;i++){var r=(0,_slicedToArray2.default)(a[i],2),u=r[0],r=r[1];o.setAttribute(u,r)}e.parentNode.insertBefore(o,e),o.appendChild(e)},unwrap:function(e){var t=e.parentNode;t!==document.body&&(t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t))},isHidden:function(e){return 0===e.offsetHeight&&0===e.offsetWidth},getEleTop:function(e){for(var t=e.offsetTop,n=e.offsetParent;null!==n;)t+=n.offsetTop,n=n.offsetParent;return t},loadLightbox:function(e){var n,t=GLOBAL_CONFIG.lightbox;"mediumZoom"===t&&(n=mediumZoom(e)).on("open",function(e){var t="dark"===document.documentElement.getAttribute("data-theme")?"#121212":"#fff";n.update({background:t})}),"fancybox"===t&&(e.forEach(function(e){var t,n;"A"!==e.parentNode.tagName&&(t=e.dataset.lazySrc||e.src,n=e.title||e.alt||"",btf.wrap(e,"a",{href:t,"data-fancybox":"gallery","data-caption":n,"data-thumb":t}))}),window.fancyboxRun||(Fancybox.bind("[data-fancybox]",{Hash:!1,Thumbs:{autoStart:!1}}),window.fancyboxRun=!0))},initJustifiedGallery:function(e){e.forEach(function(e){btf.isHidden(e)||fjGallery(e,{itemSelector:".fj-gallery-item",rowHeight:220,gutter:4,onJustify:function(){this.$container.style.opacity="1"}})})},updateAnchor:function(e){var t;e!==window.location.hash&&(e=e||location.pathname,t=GLOBAL_CONFIG_SITE.title,window.history.replaceState({url:location.href,title:t},t,e))}};
+const btf = {
+  debounce: function (func, wait, immediate) {
+    let timeout
+    return function () {
+      const context = this
+      const args = arguments
+      const later = function () {
+        timeout = null
+        if (!immediate) func.apply(context, args)
+      }
+      const callNow = immediate && !timeout
+      clearTimeout(timeout)
+      timeout = setTimeout(later, wait)
+      if (callNow) func.apply(context, args)
+    }
+  },
+
+  throttle: function (func, wait, options) {
+    let timeout, context, args
+    let previous = 0
+    if (!options) options = {}
+
+    const later = function () {
+      previous = options.leading === false ? 0 : new Date().getTime()
+      timeout = null
+      func.apply(context, args)
+      if (!timeout) context = args = null
+    }
+
+    const throttled = function () {
+      const now = new Date().getTime()
+      if (!previous && options.leading === false) previous = now
+      const remaining = wait - (now - previous)
+      context = this
+      args = arguments
+      if (remaining <= 0 || remaining > wait) {
+        if (timeout) {
+          clearTimeout(timeout)
+          timeout = null
+        }
+        previous = now
+        func.apply(context, args)
+        if (!timeout) context = args = null
+      } else if (!timeout && options.trailing !== false) {
+        timeout = setTimeout(later, remaining)
+      }
+    }
+
+    return throttled
+  },
+
+  sidebarPaddingR: () => {
+    const innerWidth = window.innerWidth
+    const clientWidth = document.body.clientWidth
+    const paddingRight = innerWidth - clientWidth
+    if (innerWidth !== clientWidth) {
+      document.body.style.paddingRight = paddingRight + 'px'
+    }
+  },
+
+  snackbarShow: (text, showAction = false, duration = 2000) => {
+    const { position, bgLight, bgDark } = GLOBAL_CONFIG.Snackbar
+    const bg = document.documentElement.getAttribute('data-theme') === 'light' ? bgLight : bgDark
+    Snackbar.show({
+      text: text,
+      backgroundColor: bg,
+      showAction: showAction,
+      duration: duration,
+      pos: position,
+      customClass: 'snackbar-css'
+    })
+  },
+
+  diffDate: (d, more = false) => {
+    const dateNow = new Date()
+    const datePost = new Date(d)
+    const dateDiff = dateNow.getTime() - datePost.getTime()
+    const minute = 1000 * 60
+    const hour = minute * 60
+    const day = hour * 24
+    const month = day * 30
+
+    let result
+    if (more) {
+      const monthCount = dateDiff / month
+      const dayCount = dateDiff / day
+      const hourCount = dateDiff / hour
+      const minuteCount = dateDiff / minute
+
+      if (monthCount > 12) {
+        result = datePost.toLocaleDateString().replace(/\//g, '-')
+      } else if (monthCount >= 1) {
+        result = parseInt(monthCount) + ' ' + GLOBAL_CONFIG.date_suffix.month
+      } else if (dayCount >= 1) {
+        result = parseInt(dayCount) + ' ' + GLOBAL_CONFIG.date_suffix.day
+      } else if (hourCount >= 1) {
+        result = parseInt(hourCount) + ' ' + GLOBAL_CONFIG.date_suffix.hour
+      } else if (minuteCount >= 1) {
+        result = parseInt(minuteCount) + ' ' + GLOBAL_CONFIG.date_suffix.min
+      } else {
+        result = GLOBAL_CONFIG.date_suffix.just
+      }
+    } else {
+      result = parseInt(dateDiff / day)
+    }
+    return result
+  },
+
+  loadComment: (dom, callback) => {
+    if ('IntersectionObserver' in window) {
+      const observerItem = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          callback()
+          observerItem.disconnect()
+        }
+      }, { threshold: [0] })
+      observerItem.observe(dom)
+    } else {
+      callback()
+    }
+  },
+
+  scrollToDest: (pos, time = 500) => {
+    const currentPos = window.pageYOffset
+    if (currentPos > pos) pos = pos - 70
+
+    if ('scrollBehavior' in document.documentElement.style) {
+      window.scrollTo({
+        top: pos,
+        behavior: 'smooth'
+      })
+      return
+    }
+
+    let start = null
+    pos = +pos
+    window.requestAnimationFrame(function step (currentTime) {
+      start = !start ? currentTime : start
+      const progress = currentTime - start
+      if (currentPos < pos) {
+        window.scrollTo(0, ((pos - currentPos) * progress / time) + currentPos)
+      } else {
+        window.scrollTo(0, currentPos - ((currentPos - pos) * progress / time))
+      }
+      if (progress < time) {
+        window.requestAnimationFrame(step)
+      } else {
+        window.scrollTo(0, pos)
+      }
+    })
+  },
+
+  animateIn: (ele, text) => {
+    ele.style.display = 'block'
+    ele.style.animation = text
+  },
+
+  animateOut: (ele, text) => {
+    ele.addEventListener('animationend', function f () {
+      ele.style.display = ''
+      ele.style.animation = ''
+      ele.removeEventListener('animationend', f)
+    })
+    ele.style.animation = text
+  },
+
+  getParents: (elem, selector) => {
+    for (; elem && elem !== document; elem = elem.parentNode) {
+      if (elem.matches(selector)) return elem
+    }
+    return null
+  },
+
+  siblings: (ele, selector) => {
+    return [...ele.parentNode.children].filter((child) => {
+      if (selector) {
+        return child !== ele && child.matches(selector)
+      }
+      return child !== ele
+    })
+  },
+
+  /**
+   * @param {*} selector
+   * @param {*} eleType the type of create element
+   * @param {*} options object key: value
+   */
+  wrap: (selector, eleType, options) => {
+    const creatEle = document.createElement(eleType)
+    for (const [key, value] of Object.entries(options)) {
+      creatEle.setAttribute(key, value)
+    }
+    selector.parentNode.insertBefore(creatEle, selector)
+    creatEle.appendChild(selector)
+  },
+
+  unwrap: el => {
+    const elParentNode = el.parentNode
+    if (elParentNode !== document.body) {
+      elParentNode.parentNode.insertBefore(el, elParentNode)
+      elParentNode.parentNode.removeChild(elParentNode)
+    }
+  },
+
+  isHidden: ele => ele.offsetHeight === 0 && ele.offsetWidth === 0,
+
+  getEleTop: ele => {
+    let actualTop = ele.offsetTop
+    let current = ele.offsetParent
+
+    while (current !== null) {
+      actualTop += current.offsetTop
+      current = current.offsetParent
+    }
+
+    return actualTop
+  },
+
+  loadLightbox: ele => {
+    const service = GLOBAL_CONFIG.lightbox
+
+    if (service === 'mediumZoom') {
+      const zoom = mediumZoom(ele)
+      zoom.on('open', e => {
+        const photoBg = document.documentElement.getAttribute('data-theme') === 'dark' ? '#121212' : '#fff'
+        zoom.update({
+          background: photoBg
+        })
+      })
+    }
+
+    if (service === 'fancybox') {
+      ele.forEach(i => {
+        if (i.parentNode.tagName !== 'A') {
+          const dataSrc = i.dataset.lazySrc || i.src
+          const dataCaption = i.title || i.alt || ''
+          btf.wrap(i, 'a', { href: dataSrc, 'data-fancybox': 'gallery', 'data-caption': dataCaption, 'data-thumb': dataSrc })
+        }
+      })
+
+      if (!window.fancyboxRun) {
+        Fancybox.bind('[data-fancybox]', {
+          Hash: false,
+          Thumbs: {
+            autoStart: false
+          }
+        })
+        window.fancyboxRun = true
+      }
+    }
+  },
+
+  initJustifiedGallery: function (selector) {
+    selector.forEach(function (i) {
+      if (!btf.isHidden(i)) {
+        fjGallery(i, {
+          itemSelector: '.fj-gallery-item',
+          rowHeight: 220,
+          gutter: 4,
+          onJustify: function () {
+            this.$container.style.opacity = '1'
+          }
+        })
+      }
+    })
+  },
+
+  updateAnchor: (anchor) => {
+    if (anchor !== window.location.hash) {
+      if (!anchor) anchor = location.pathname
+      const title = GLOBAL_CONFIG_SITE.title
+      window.history.replaceState({
+        url: location.href,
+        title: title
+      }, title, anchor)
+    }
+  }
+}
