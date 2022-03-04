@@ -1,3 +1,20 @@
+User-agent: dotbot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: SMTBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: CheckMarkNetwork
+Disallow: /
+User-agent: DigiCert DCV Bot
+Disallow: /
+
 User-agent: *
 Allow: /
 Allow: /about/
