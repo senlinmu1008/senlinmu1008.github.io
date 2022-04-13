@@ -641,13 +641,6 @@
 
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
-    <lastmod>2022-04-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/JPA/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
@@ -663,6 +656,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/MyBatis/</loc>
+    <lastmod>2022-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -753,14 +753,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
+    <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -774,14 +774,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/RESTful/</loc>
+    <loc>https://zhaoxiaobin.net/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://zhaoxiaobin.net/tags/RESTful/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -802,13 +802,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
-    <lastmod>2022-04-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
@@ -817,6 +810,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
+    <lastmod>2022-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -858,13 +858,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
-    <lastmod>2022-04-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Nginx/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
@@ -873,6 +866,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Https/</loc>
+    <lastmod>2022-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -895,14 +895,14 @@
 
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -965,14 +965,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/SpringBoot/</loc>
+    <loc>https://zhaoxiaobin.net/categories/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://zhaoxiaobin.net/categories/SpringBoot/</loc>
     <lastmod>2022-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
