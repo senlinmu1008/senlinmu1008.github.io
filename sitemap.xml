@@ -760,14 +760,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/IDEA/</loc>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
+    <loc>https://zhaoxiaobin.net/tags/IDEA/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -802,6 +802,13 @@
   </url>
   
   <url>
+    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>daily</changefreq>
@@ -810,13 +817,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
