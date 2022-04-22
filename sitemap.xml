@@ -704,13 +704,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Hexo/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Git/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
@@ -719,6 +712,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Linux/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Hexo/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,13 +746,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Lambda/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
@@ -761,6 +754,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -837,14 +837,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/HTTP/</loc>
+    <loc>https://zhaoxiaobin.net/tags/TCP/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/TCP/</loc>
+    <loc>https://zhaoxiaobin.net/tags/HTTP/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -923,13 +923,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Hexo/</loc>
-    <lastmod>2022-04-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/categories/Git/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
@@ -938,6 +931,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/categories/Linux/</loc>
+    <lastmod>2022-04-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/categories/Hexo/</loc>
     <lastmod>2022-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

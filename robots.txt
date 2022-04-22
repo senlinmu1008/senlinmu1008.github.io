@@ -26,6 +26,8 @@ Allow: /tags/
 Allow: /link/
 Allow: /messageboard/
 Allow: /music/
+Allow: /movies/
+Allow: /books/
 Allow: /page/
 Disallow: /js/
 Disallow: /css/
