@@ -746,13 +746,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
-    <lastmod>2022-05-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Lambda/</loc>
     <lastmod>2022-05-25</lastmod>
     <changefreq>daily</changefreq>
@@ -761,6 +754,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
+    <lastmod>2022-05-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
     <lastmod>2022-05-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
