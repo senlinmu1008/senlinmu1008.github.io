@@ -746,13 +746,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
@@ -760,14 +753,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/IDEA/</loc>
+    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -782,6 +768,20 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/JDK/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/webService/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/IDEA/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
