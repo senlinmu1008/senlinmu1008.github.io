@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhaoxiaobin.net/wedding/index.html</loc>
+    
+    <lastmod>2022-06-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/gallery/index.html</loc>
+    
+    <lastmod>2022-06-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/e5f9140fd2d4/</loc>
     
     <lastmod>2022-06-22</lastmod>
@@ -79,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/gallery/index.html</loc>
-    
-    <lastmod>2022-06-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/link/index.html</loc>
     
     <lastmod>2022-06-22</lastmod>
@@ -108,13 +115,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/index.html</loc>
-    
-    <lastmod>2022-06-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/wedding/index.html</loc>
     
     <lastmod>2022-06-22</lastmod>
     
@@ -823,13 +823,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
@@ -838,6 +831,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Transactional/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
