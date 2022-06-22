@@ -753,13 +753,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/Lambda/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
@@ -775,6 +768,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/webService/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -844,13 +844,6 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/csv/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/HTTP/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
@@ -858,7 +851,7 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
+    <loc>https://zhaoxiaobin.net/tags/csv/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -866,13 +859,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/TCP/</loc>
-    <lastmod>2022-06-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -887,6 +873,20 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/Https/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Haproxy/</loc>
+    <lastmod>2022-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -965,14 +965,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
+    <loc>https://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/Java%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://zhaoxiaobin.net/categories/MySQL/</loc>
     <lastmod>2022-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
