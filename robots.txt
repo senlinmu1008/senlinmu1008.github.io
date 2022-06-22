@@ -33,5 +33,6 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /img/
 Disallow: /assets/
+Disallow: /pic/
 Sitemap: https://zhaoxiaobin.net/sitemap.xml
 Sitemap: https://zhaoxiaobin.net/baidusitemap.xml
