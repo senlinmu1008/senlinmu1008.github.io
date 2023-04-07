@@ -655,6 +655,13 @@
 
   
   <url>
+    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
+    <lastmod>2023-04-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/tags/JPA/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
@@ -670,13 +677,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/MyBatis/</loc>
-    <lastmod>2023-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -909,14 +909,14 @@
 
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
