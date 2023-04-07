@@ -655,13 +655,6 @@
 
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
-    <lastmod>2023-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhaoxiaobin.net/tags/JPA/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
@@ -677,6 +670,13 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/MyBatis/</loc>
+    <lastmod>2023-04-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhaoxiaobin.net/tags/GC/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -739,14 +739,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://zhaoxiaobin.net/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -837,14 +837,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/csv/</loc>
+    <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
+    <loc>https://zhaoxiaobin.net/tags/csv/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -909,14 +909,14 @@
 
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/categories/JPA/</loc>
+    <loc>https://zhaoxiaobin.net/categories/JVM/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
