@@ -746,14 +746,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/MySQL8/</loc>
+    <loc>https://zhaoxiaobin.net/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -816,6 +816,13 @@
   </url>
   
   <url>
+    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
+    <lastmod>2023-04-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhaoxiaobin.net/tags/Swagger/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
@@ -831,13 +838,6 @@
   
   <url>
     <loc>https://zhaoxiaobin.net/tags/AOP/</loc>
-    <lastmod>2023-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhaoxiaobin.net/tags/cron/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -872,14 +872,14 @@
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Nginx/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhaoxiaobin.net/tags/Nginx/</loc>
+    <loc>https://zhaoxiaobin.net/tags/Keepalived/</loc>
     <lastmod>2023-04-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
